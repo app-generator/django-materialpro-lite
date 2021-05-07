@@ -15,7 +15,8 @@ Open-Source **Django Dashboard** coded with basic modules, database, ORM and dep
 > Links
 
 - [Django Material Lite](https://appseed.us/admin-dashboards/django-dashboard-material-lite) - product page
-- [Django Material Lite - Demo](https://django-dashboard-material-lite.appseed.us/) - LIVE deployment
+- [Django Material Lite](https://django-dashboard-material-lite.appseed.us/) - LIVE deployment
+- [Django Material Lite](https://docs.appseed.us/products/django-dashboards/materialpro-lite) - product documentation
 
 <br />
 
