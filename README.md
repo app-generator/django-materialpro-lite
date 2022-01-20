@@ -6,43 +6,52 @@ Open-Source **Django Dashboard** coded with basic modules, database, ORM and dep
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Django 3.2.6 LTS**
+- `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
-- SQLite Database, Django Native ORM
-- Modular design, clean codebase
-- Session-Based Authentication, Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx
+- UI-Ready app, `SQLite Database`, Django Native ORM
+- `Session-Based authentication`, Forms validation
+- `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+
+<br />
 
 > Links
 
-- [Django Material Lite](https://appseed.us/admin-dashboards/django-dashboard-material-lite) - product page
-- [Django Material Lite](https://django-dashboard-material-lite.appseed.us/) - LIVE deployment
-- [Django Material Lite](https://docs.appseed.us/products/django-dashboards/materialpro-lite) - product documentation
+- 👉 [Django Material Lite](https://appseed.us/admin-dashboards/django-dashboard-material-lite) - product page
+- 👉 [Django Material Lite](https://django-dashboard-material-lite.appseed.us/) - LIVE deployment
+- 👉 [Django Material Lite](https://docs.appseed.us/products/django-dashboards/materialpro-lite) - product documentation
 
 <br />
 
-## Want more? Go PRO!
+## ✨ Quick Start in `Docker`
 
-PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
+> Get the code
 
-| [Django Material PRO Wpx](https://appseed.us/admin-dashboards/django-material-dashboard-wpx-pro) | [Django Dashboard Black PRO](https://appseed.us/admin-dashboards/django-dashboard-black-pro) | [Django Dashboard Argon PRO](https://appseed.us/admin-dashboards/django-dashboard-argon-pro) |
-| --- | --- | --- |
-| [![Django Material PRO Wpx](https://raw.githubusercontent.com/app-generator/django-material-dashboard-wpx-pro/master/media/django-material-dashboard-wpx-pro-screen.png)](https://appseed.us/admin-dashboards/django-material-dashboard-wpx-pro) | [![Django Dashboard Black PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-black-pro/master/media/django-dashboard-black-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-black-pro) | [![Django Dashboard Argon PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-argon-pro/master/media/django-dashboard-argon-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-argon-pro)
+```bash
+$ git clone https://github.com/app-generator/django-material-pro-lite.git
+$ cd django-material-pro-lite
+```
 
-<br />
+> Start the app in Docker
+
+```bash
+$ docker-compose up --build
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
+
 <br />
 
 ![Django Material Lite - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-material-lite/master/media/django-dashboard-material-lite-screen.png)
 
 <br />
 
-## How to use it
+## ✨ How to use it
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-dashboard-material-lite.git
-$ cd django-dashboard-material-lite
+$ git clone https://github.com/app-generator/django-material-pro-lite.git
+$ cd django-material-pro-lite
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -72,7 +81,7 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 
 <br />
 
-## Code-base structure
+## ✨ Code-base structure
 
 The project is coded using a simple and intuitive structure presented bellow:
 
@@ -137,7 +146,7 @@ The project is coded using a simple and intuitive structure presented bellow:
 
 <br />
 
-## Recompile CSS
+## ✨ Recompile CSS
 
 To recompile SCSS files, follow this setup:
 
@@ -180,31 +189,10 @@ The generated file is saved in `static/assets/css` directory.
 
 <br /> 
 
-## Deployment
+## ✨ Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/django-dashboard-material-lite.git
-$ cd django-dashboard-material-lite
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
-
-<br />
 
 ### [Gunicorn](https://gunicorn.org/)
 ---
@@ -249,7 +237,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
-## Credits & Links
+## ✨ Credits & Links
 
 - [Django](https://www.djangoproject.com/) - The official website
 - [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
