@@ -1,0 +1,84 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Error 404 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- ============================================================== -->
+    <!-- Login box.scss -->
+    <!-- ============================================================== -->
+
+    <div class="error-box">
+        <div class="error-body">
+            
+            <div class="card col-lg-3 mx-auto">
+                <div class="row text-center justify-content-center">
+                    <h4 class="card-title mt-4">
+                        MaterialPRO Lite
+                    </h4>
+                    <h6 class="card-subtitle mt-2">
+                        {% if msg %}
+                            <span class="text-danger">{{ msg | safe }}</span>
+                        {% else %}
+                            Add your credentials
+                        {% endif %} 
+                    </h6>
+                </div>    
+                <div class="card-body profile-card">
+
+                    <form method="post" action="" class="form-horizontal form-material">
+                        
+                        {% csrf_token %}
+
+                        <div class="form-group">
+                            <label class="col-md-12">Username</label>
+                            <div class="col-md-12">
+                                {{ form.username }}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-12">Password</label>
+                            <div class="col-md-12">
+                                {{ form.password }}
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <button type="submit" name="login" class="btn btn-success mx-auto">Login</button> 
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                Don't have an account? <a href="{% url 'register' %}">Register</a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>            
+            
+        </div>
+        <footer class="footer text-center w-100">
+            &copy; WrapPixel - Coded by AppSeed.
+        </footer>
+    </div>
+
+{% endblock content %}
+
+{% block javascripts %}
+
+    <!-- ============================================================== -->
+    <!-- This page plugin js -->
+    <!-- ============================================================== -->
+    <script>
+        $(".preloader").fadeOut();
+    </script>
+
+{% endblock javascripts %}
