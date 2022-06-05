@@ -7,7 +7,6 @@ Open-Source **Django Dashboard** coded with basic modules, database, ORM and dep
 > Features
 
 - `Up-to-date dependencies`
-- [SCSS compilation](#recompile-css) via **Gulp**
 - UI-Ready app, `SQLite Database`, Django Native ORM
 - `Session-Based authentication`, Forms validation
 - `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
