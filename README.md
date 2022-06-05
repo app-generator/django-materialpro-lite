@@ -18,7 +18,7 @@ Open-Source **Django Dashboard** coded with basic modules, database, ORM and dep
 > Links
 
 - 👉 [Django Material Lite](https://appseed.us/product/material-wpx/django/) - product page
-- 👉 [Flask Material Lite](https://django-materialpro-lite.appseed-srv1.com) - LIVE deployment
+- 👉 [Django Material Lite](https://django-materialpro-lite.appseed-srv1.com) - LIVE deployment
 
 <br />
 
