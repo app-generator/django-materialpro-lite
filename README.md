@@ -23,14 +23,14 @@ Open-Source **Django Dashboard** coded with basic modules, database, ORM and dep
 
 ## ✨ Quick Start in `Docker`
 
-> Get the code
+> 👉 **Step 1** - Download the code from the GH repository (using `GIT`)
 
 ```bash
 $ git clone https://github.com/app-generator/django-materialpro-lite.git
 $ cd django-materialpro-lite
 ```
 
-> Start the app in Docker
+> 👉 **Step 2** - Start the APP in `Docker`
 
 ```bash
 $ docker-compose up --build
