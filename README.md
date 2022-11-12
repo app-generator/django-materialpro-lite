@@ -7,13 +7,24 @@ Open-Source **Django Dashboard** coded with basic modules, database, ORM and dep
 
 <br />
 
+## `PROMO` [Black Friday 2022](https://blog.appseed.us/black-friday-2022-vote-your-discount/)
+
+> This [campaign](https://blog.appseed.us/black-friday-2022-vote-your-discount/) starts on `15-NOV` and the users are able to `vote their discount`: **50, 60, 70%**: 
+
+- 👉 [Discord](https://discord.gg/fZC6hup) `announcements` channel
+- 👉 [Twitter](https://twitter.com/webappseed) (official account) 
+
+[![black-friday-2022-cover](https://user-images.githubusercontent.com/51070104/201459148-7561df9f-0a7d-4d1a-bf44-a1ac5e89c175.jpg)](https://blog.appseed.us/black-friday-2022-vote-your-discount/)
+
+<br />
+
 > 🚀 Built with [App Generator](https://appseed.us/generator/), Timestamp: `2022-09-18 07:49`
 
-- `Up-to-date dependencies`
-- UI-Ready app, `SQLite Database`, Django Native ORM
-- `Session-Based authentication`, Forms validation
-- `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- ✅ `Up-to-date dependencies`
+- ✅ UI-Ready app, `SQLite Database`, Django Native ORM
+- ✅ `Session-Based authentication`, Forms validation
+- ✅ `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
+- ✅ Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
