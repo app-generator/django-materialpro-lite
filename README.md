@@ -1,6 +1,6 @@
 # [Django Material Lite](https://appseed.us/product/material-wpx/django/)
 
-Open-Source **Django Dashboard** coded with basic modules, database, ORM and deployment scripts on top of MaterialPro Bootstrap Lite, a modern Bootstrap dashboard design. [WrapPixel](https://appseed.us/agency/wrappixel)'s **MaterialPro Bootstrap Lite** is one of the best Bootstrap templates for admin dashboards and control admin panels. This powerful and competent Bootstrap 4 admin template is based on HTML and is built with the CSS framework. 
+Open-Source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** coded with basic modules, database, ORM, and deployment scripts on top of MaterialPro Bootstrap Lite, a modern Bootstrap dashboard design. WrapPixel's **MaterialPro Bootstrap Lite** is one of the best Bootstrap templates for admin dashboards and control admin panels. This powerful and competent Bootstrap 4 admin template is based on HTML and is built with the CSS framework. 
 
 - 👉 [Django Material Lite](https://appseed.us/product/material-wpx/django/) - product page
 - 👉 [Django Material Lite](https://django-materialpro-lite.appseed-srv1.com) - LIVE deployment
